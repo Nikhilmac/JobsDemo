@@ -24,6 +24,7 @@ public class Assignment3 {
 		driver.switchTo().window(tabs.get(0));
 		driver.findElement(By.name("q")).sendKeys("Selenium WebDriver");
 		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+		driver.close();
 
 	}
 

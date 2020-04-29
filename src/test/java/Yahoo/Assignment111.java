@@ -21,7 +21,7 @@ public class Assignment111 {
 		System.setProperty("webdriver.chrome.driver", "E:\\selenium\\Chrome 81\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://annauniv.edu/");
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	//	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		try {
 			driver.findElement(By.linkText("Scans")).click();
